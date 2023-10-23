@@ -4,6 +4,9 @@ import { faSeedling } from "@fortawesome/free-solid-svg-icons";
 import { faWheatAwn } from "@fortawesome/free-solid-svg-icons";
 import { faShip } from "@fortawesome/free-solid-svg-icons";
 
+//images
+import about from "../Assets/Images/about.jpg";
+
 function Home() {
   return (
     <div className="w-full mx-auto">
@@ -54,6 +57,40 @@ function Home() {
               className="text-3xl text-center w-full"
             />
             <div className="text-2xl font-semibold text-center ">We Export</div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-primary-100 w-full mt-4">
+        <div className="w-3/4 mx-auto py-4">
+          <h2 className="title mb-4">About Us</h2>
+          <div className="w-full flex justify-between gap-4">
+            <div className="full">
+              <img
+                src={about}
+                alt="Chizig farms"
+                className="w-3/4 rounded-2xl shadow-lg"
+              />
+            </div>
+            <div className="w-full text-lg text-justify">
+              <p>
+                At Chizig Farms, our story is rooted in a deep love for the land
+                and a passion for producing the world's finest agricultural
+                products. Founded with a vision of sustainable farming and a
+                commitment to environmental responsibility, our journey has been
+                one of dedication and growth. What began as a small family farm
+                has blossomed into a global presence, serving communities in
+                various corners of the world. Our mission is simple yet
+                profound: to cultivate excellence in agriculture, nurture the
+                earth, and provide fresh, high-quality produce to the world.
+                With the tireless efforts of our skilled team, we've established
+                ourselves as a trusted source of goodness from the fields,
+                especially our beloved pineapples. Join us in our pursuit of
+                fresh, flavorful, and responsibly grown agricultural delights
+              </p>
+              <button className="bg-primary text-white px-8 py-2 mt-4">
+                Learn More
+              </button>
+            </div>
           </div>
         </div>
       </div>

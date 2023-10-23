@@ -5,7 +5,7 @@ import "font-awesome/css/font-awesome.min.css";
 
 function App() {
   return (
-    <div className="App bg-primary-100">
+    <div className="App bg-white">
       <NavBar />
       <Home />
     </div>

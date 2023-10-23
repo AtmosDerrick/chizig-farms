@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.title {
+  @apply text-left border-l-2 border-primary font-bold text-secondary text-2xl uppercase pl-4;
+}
