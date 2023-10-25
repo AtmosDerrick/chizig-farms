@@ -33,10 +33,10 @@ function Slide() {
           slidesToSlide={deviceType !== "mobile" ? 1 : 1}
           infinite={true}
           autoPlay={true}
-          autoPlaySpeed={3000}
+          autoPlaySpeed={1000}
           keyBoardControl={true}
-          customTransition="transform 3000ms ease-in-out"
-          transitionDuration={3000}
+          customTransition="transform 1000ms ease-in-out"
+          transitionDuration={1000}
           containerClass="carousel-container"
           removeArrowOnDeviceType={["tablet", "mobile"]}
           deviceType={deviceType}
@@ -44,7 +44,7 @@ function Slide() {
           itemClass="carousel-item padding-40px"
           className="relative">
           <div className=" ">
-            <div className="w-full relative  h-[30rem] rounded-2xl">
+            <div className="w-full relative  h-[25rem] lg:h-[30rem] rounded-2xl">
               <img
                 src={pineaple}
                 alt="MMRA Images"
@@ -54,7 +54,7 @@ function Slide() {
           </div>
 
           <div className=" ">
-            <div className="w-full relative  h-[30rem] rounded-2xl">
+            <div className="w-full relative  h-[25rem] lg:h-[30rem] rounded-2xl">
               <img
                 src={plaintain}
                 alt="MMRA Images"

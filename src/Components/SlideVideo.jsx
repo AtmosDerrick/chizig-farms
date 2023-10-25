@@ -36,10 +36,10 @@ function SlideVideo() {
           autoPlay={false}
           autoPlaySpeed={3000}
           keyBoardControl={true}
-          customTransition="transform 3000ms ease-in-out"
-          transitionDuration={3000}
+          customTransition="transform 1000ms ease-in-out"
+          transitionDuration={1000}
           containerClass="carousel-container"
-          removeArrowOnDeviceType={["tablet", "mobile"]}
+          removeArrowOnDeviceType={[]}
           deviceType={deviceType}
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item padding-40px"

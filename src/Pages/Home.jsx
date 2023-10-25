@@ -132,7 +132,7 @@ function Home() {
             Healthy and<br></br> Delicious food Products
           </span>
         </div>
-        <div className="w-full  lg:mx-0 lg:w-1/2 h-[30rem] rounded-2xl shadow-xl">
+        <div className="w-full  lg:mx-0 lg:w-1/2 h-[25rem] lg:h-[30rem] rounded-2xl shadow-xl">
           <Slide />
         </div>
       </div>
