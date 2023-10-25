@@ -167,13 +167,13 @@ function Home() {
         </div>
       </section>
 
-      <section className="bg-primary-100 w-full py-12">
+      <section className="bg-primary-100 w-full py-12 px-4 lg:px-0">
         <div className="w-full lg:w-3/4 mx-auto text-center ">
-          <h2 className="w-3/4 lg:w-1/2 mx-auto text-2xl font-semibold text-primary">
+          <h2 className="w-full lg:w-1/2 mx-auto text-2xl font-semibold text-primary">
             Our mission is to uplift one million Ghanaians living in remote
             areas from poverty while fostering agriculture sustainability.
           </h2>
-          <p className="w-full   lg:w-3/4 lg:mx-auto text-center mt-4 text-lg">
+          <p className="w-full   lg:w-3/4 lg:mx-auto text-justify lg:text-center mt-4 text-lg">
             At Chizig Farms, our mission is a deeply rooted commitment to
             driving positive change in remote areas of Ghana. We are dedicated
             to empowering one million individuals and families, helping them
