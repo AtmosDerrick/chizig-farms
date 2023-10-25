@@ -38,7 +38,7 @@ function Home() {
       <div className="h-4 bg-primary w-full"></div>
       <div className="mx-4 lg:w-2/4  h-auto lg:h-[20vh] lg:mx-auto mt-8 grid grid-cols-1 lg:grid-cols-3 gap-5 mb-4">
         <div className="bg-secondary text-white font-medium rounded-lg flex justify-center items-center h-[10rem] lg:h-auto">
-          <div className="text-white shadow-md">
+          <div className="text-white">
             <FontAwesomeIcon
               icon={faSeedling}
               className="text-3xl text-center w-full"
@@ -47,7 +47,7 @@ function Home() {
           </div>
         </div>
         <div className="bg-primary text-white font-medium rounded-lg flex justify-center items-center h-[10rem] lg:h-auto">
-          <div className="text-white shadow-md">
+          <div className="text-white ">
             <FontAwesomeIcon
               icon={faWheatAwn}
               className="text-3xl text-center w-full"
@@ -58,7 +58,7 @@ function Home() {
           </div>
         </div>
         <div className="bg-secondary text-white font-medium rounded-lg flex justify-center items-center h-[10rem] lg:h-auto">
-          <div className="text-white shadow-md">
+          <div className="text-white ">
             <FontAwesomeIcon
               icon={faShip}
               className="text-3xl text-center w-full"
