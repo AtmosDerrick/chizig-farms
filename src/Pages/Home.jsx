@@ -1,6 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSeedling } from "@fortawesome/free-solid-svg-icons";
+import {
+  faChartLine,
+  faCity,
+  faGlobe,
+  faSeedling,
+} from "@fortawesome/free-solid-svg-icons";
 import { faWheatAwn } from "@fortawesome/free-solid-svg-icons";
 import { faShip } from "@fortawesome/free-solid-svg-icons";
 import Slide from "../Components/Slide";
@@ -10,6 +15,8 @@ import about from "../Assets/Images/about.jpg";
 import pineaple from "../Assets/Images/pineaple.jpeg";
 import plaintain from "../Assets/Images/plantain.jpg";
 import farms from "../Assets/Images/farms.jpeg";
+import SlideVideo from "../Components/SlideVideo";
+import growing from "../Assets/Images/video1.mp4";
 
 function Home() {
   return (
@@ -129,16 +136,16 @@ function Home() {
         </div>
       </div>
 
-      <section className="w-full bg-primary-100 mt-8">
+      <section className="w-full bg-primary mt-8">
         <div className="w-3/4 mx-auto py-4">
           <div className="flex gap-4 justify-between">
             <div className="w-full p-4">
-              <h2 className="text-3xl my-4 font-medium">
+              <h2 className="text-3xl my-4 font-medium text-primary-100">
                 Chizig Farms aspires to become the premier vertically integrated
                 agricultural enterprise, adding substantial value to the
                 agricultural sector in Ghana.
               </h2>
-              <p className="text-lg text-justify mt-4">
+              <p className="text-white text-lg text-justify mt-4">
                 Chizig Farms is dedicated to the vision of becoming Ghana's
                 leading vertically integrated agricultural enterprise. Through
                 our commitment to sustainable farming practices and innovation,
@@ -154,6 +161,175 @@ function Home() {
 
             <div className="w-full pt-12">
               <img src={farms} className="w-full" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-primary-100 w-full py-12">
+        <div className="w-3/4 mx-auto text-center ">
+          <h2 className="w-1/2 mx-auto text-2xl font-semibold text-primary">
+            Our mission is to uplift one million Ghanaians living in remote
+            areas from poverty while fostering agriculture sustainability.
+          </h2>
+          <p className="w-3/4 mx-auto text-center mt-4 text-lg">
+            At Chizig Farms, our mission is a deeply rooted commitment to
+            driving positive change in remote areas of Ghana. We are dedicated
+            to empowering one million individuals and families, helping them
+            move beyond the constraints of poverty. Through sustainable
+            agricultural practices, job creation, and community development
+            initiatives, we strive to enhance livelihoods, promote
+            self-sufficiency, and improve overall well-being. By fostering
+            sustainability and economic resilience, we aim to create a lasting
+            and impactful difference in the lives of our fellow Ghanaians.
+          </p>
+        </div>
+        <div className="w-1/2 mx-auto mt-8">
+          <SlideVideo />
+        </div>
+      </section>
+
+      <section className="mt-8 ">
+        <div className="w-3/4 mx-auto">
+          <div>
+            {" "}
+            <h3 className="title mb-8">Market Opportunities</h3>
+            <p className="text-lg text-primary font-normal text-justify">
+              Chizig Farms, after the production and aggregation phases, engages
+              in a systematic approach to supply its agricultural products. This
+              process involves the creation of Memorandums of Understanding
+              (MoUs), agreements, or contractual arrangements with potential
+              buyers, each delineated by its unique terms and conditions. These
+              structured agreements empower Chizig Farms to provide clear
+              directives to our partner farmer organizations regarding the
+              required quantities of produce for the upcoming seasons. Through
+              these transparent agreements, we ensure the seamless delivery of
+              our agricultural products to our valued customers, while
+              simultaneously supporting local farming communities in their
+              production endeavors.
+            </p>
+          </div>
+
+          <div className="w-3/4 mx-auto grid grid-cols-2 gap-4 mt-8">
+            <div className="w-full h-[25rem] bg-primary-100 rounded-2xl">
+              {" "}
+              <div className="mt-4  flex justify-center items-center ">
+                <div className="text-4xl border-2 border-primary p-4 rounded-full">
+                  <FontAwesomeIcon icon={faChartLine} />
+                </div>
+              </div>
+              <div className="p-4">
+                <h4 className="text-center py-4 text-xl font-semibold uppercase">
+                  Local Markets
+                </h4>
+                <p className="text-base text-justify">
+                  In the local market, Chizig Farms is committed to serving our
+                  neighboring communities with the freshest and finest
+                  agricultural products. We take great pride in delivering
+                  quality produce that not only nourishes but also strengthens
+                  local economies. By engaging with local markets, we foster a
+                  sense of unity and shared prosperity, making a positive impact
+                  on both our consumers and the communities we call home.
+                </p>
+              </div>
+            </div>
+            <div className="w-full h-[25rem] bg-primary-100 rounded-2xl">
+              {" "}
+              <div className="mt-4  flex justify-center items-center ">
+                <div className="text-4xl border-2 border-primary p-4 rounded-full">
+                  <FontAwesomeIcon icon={faGlobe} />
+                </div>
+              </div>
+              <div className="p-4">
+                <h4 className="text-center py-4 text-xl font-semibold uppercase">
+                  International Markets
+                </h4>
+                <p className="text-base text-justify">
+                  In the international market, Chizig Farms embraces the
+                  opportunity to share the essence of Ghana's agriculture with
+                  the world. Our dedication to sustainable practices and quality
+                  assurance ensures that our products reach global consumers
+                  with the same freshness and excellence as they do locally.
+                  Through our presence in international markets, we aim to not
+                  only meet the demand for our produce but also to be an
+                  ambassador of Ghana's agricultural expertise, bringing the
+                  flavors and benefits of our land to tables across the globe.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="w-full bg-primary-100 mt-8">
+        <div className="w-3/4 mx-auto py-4">
+          <div className="flex gap-4 justify-between">
+            <div className="w-full p-4">
+              <h2 className="text-3xl my-4 font-medium text-primary">
+                Roots of Chizig Farms: A History of Sustainable Agriculture and
+                Growth
+              </h2>
+              <p className="text-primary text-lg text-justify mt-4">
+                Chizig Farms has a rich history deeply rooted in the fertile
+                soils of Ghana. Established with a vision of sustainable
+                agriculture, our journey began with a small family farm that has
+                since flourished into a thriving agricultural enterprise. Over
+                the years, we have honed our expertise, embracing innovative
+                farming practices and a commitment to environmental
+                responsibility. Our history is a testament to the passion and
+                dedication of our team, who have transformed a humble beginning
+                into a force for excellence in agriculture. Today, Chizig Farms
+                stands as a symbol of sustainable growth and a commitment to
+                nurturing both the land and the communities we serve.
+              </p>
+            </div>
+
+            <div className="w-full pt-8 rounded-xl ">
+              <video controls className="w-full" muted>
+                <source src={growing} type="video/mp4" />
+                <source src={growing} type="video/ogg" />
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="w-full my-8">
+        <div className="w-3/4 mx-auto ">
+          <h2 className="title">Our Team</h2>
+          <div className="grid grid-cols-3 gap-4 mt-8">
+            <div className="h-[30rem] bg-gray-100">
+              <div className="bg-gray-200 h-[20rem] w-full"></div>
+              <div className="p-4">
+                <h4 className="text-2xl font-semibold text-secondary">
+                  Osei Aron
+                </h4>
+                <h5 className="text-base font-medium text-gray-900 py-2">
+                  Managing Director
+                </h5>
+              </div>
+            </div>
+            <div className="h-[30rem] bg-gray-100">
+              <div className="bg-gray-200 h-[20rem] w-full"></div>
+              <div className="p-4">
+                <h4 className="text-2xl font-semibold text-secondary">
+                  Osei Aron
+                </h4>
+                <h5 className="text-base font-medium text-gray-900 py-2">
+                  Managing Director
+                </h5>
+              </div>
+            </div>
+            <div className="h-[30rem] bg-gray-100">
+              <div className="bg-gray-200 h-[20rem] w-full"></div>
+              <div className="p-4">
+                <h4 className="text-2xl font-semibold text-secondary">
+                  Osei Aron
+                </h4>
+                <h5 className="text-base font-medium text-gray-900 py-2">
+                  Managing Director
+                </h5>
+              </div>
             </div>
           </div>
         </div>
