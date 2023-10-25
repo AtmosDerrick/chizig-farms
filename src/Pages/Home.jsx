@@ -17,6 +17,7 @@ import plaintain from "../Assets/Images/plantain.jpg";
 import farms from "../Assets/Images/farms.jpeg";
 import SlideVideo from "../Components/SlideVideo";
 import growing from "../Assets/Images/video1.mp4";
+import logo from "../Assets/Images/chi1.png";
 
 function Home() {
   return (
@@ -24,10 +25,10 @@ function Home() {
       <div className="h-[80vh] w-full landing ">
         <div className="h-[80vh] w-full opacity-0 bg-white  absolute"></div>
         <div className=" h-[50vh] absolute z-30 w-full">
-          <div className="text-7xl font-serif font-bold text-white flex justify-center items-center h-[50vh]">
-            <div className="w-1/2 text-center">
+          <div className="text-5xl lg:text-7xl font-serif font-bold text-white flex justify-center items-center h-[50vh]">
+            <div className="lw-3/4 g:w-1/2 text-center">
               <div className="mb-4 drop-shadow-lg">Chizig Farms</div>
-              <p className="text-xl px-24 font-medium">
+              <p className="text-xl px-4 lg:px-24 font-medium">
                 Farming with Passion, Feeding the World
               </p>
             </div>
@@ -35,8 +36,8 @@ function Home() {
         </div>
       </div>
       <div className="h-4 bg-primary w-full"></div>
-      <div className="w-2/4  h-[20vh] mx-auto mt-8 grid grid-cols-3 gap-5 mb-4">
-        <div className="bg-secondary text-white font-medium rounded-lg flex justify-center items-center">
+      <div className="mx-4 lg:w-2/4  h-auto lg:h-[20vh] lg:mx-auto mt-8 grid grid-cols-1 lg:grid-cols-3 gap-5 mb-4">
+        <div className="bg-secondary text-white font-medium rounded-lg flex justify-center items-center h-[10rem] lg:h-auto">
           <div className="text-white shadow-md">
             <FontAwesomeIcon
               icon={faSeedling}
@@ -45,7 +46,7 @@ function Home() {
             <div className="text-2xl font-semibold text-center ">We Grow</div>
           </div>
         </div>
-        <div className="bg-primary text-white font-medium rounded-lg flex justify-center items-center">
+        <div className="bg-primary text-white font-medium rounded-lg flex justify-center items-center h-[10rem] lg:h-auto">
           <div className="text-white shadow-md">
             <FontAwesomeIcon
               icon={faWheatAwn}
@@ -56,7 +57,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="bg-secondary text-white font-medium rounded-lg flex justify-center items-center">
+        <div className="bg-secondary text-white font-medium rounded-lg flex justify-center items-center h-[10rem] lg:h-auto">
           <div className="text-white shadow-md">
             <FontAwesomeIcon
               icon={faShip}
@@ -67,17 +68,17 @@ function Home() {
         </div>
       </div>
       <div className="bg-primary-100 w-full mt-4 ">
-        <div className="w-3/4 mx-auto py-4">
+        <div className="mx-4 lg:w-3/4 lg:mx-auto py-4">
           <h2 className="title mb-4">About Us</h2>
-          <div className="w-full flex justify-between gap-4">
+          <div className="w-full lg:flex lg:justify-between gap-4">
             <div className="full">
               <img
                 src={about}
                 alt="Chizig farms"
-                className="w-3/4 rounded-2xl shadow-lg"
+                className="w-full lg:w-3/4 rounded-2xl shadow-lg"
               />
             </div>
-            <div className="w-full text-lg text-justify">
+            <div className="w-full text-base lg:text-lg text-justify pt-4 lg:pt-0">
               <p>
                 At Chizig Farms, our story is rooted in a deep love for the land
                 and a passion for producing the world's finest agricultural
@@ -121,8 +122,8 @@ function Home() {
         // </section>
       }
 
-      <div className="my-8 w-3/4 mx-auto flex justify-between gap-4 ">
-        <div className="w-3/4 text-6xl font-bold text-primary leading-[5rem] pt-8">
+      <div className="my-8 mx-4 lg:w-3/4 lg:mx-auto lg:flex lg:justify-between gap-4 ">
+        <div className="w-full lg:w-3/4 mb-4 lg:mb-0 text-5xl lg:text-6xl font-bold text-primary lg:leading-[5rem] pt-8">
           <span className="text-2xl font-normal italic pb-4 underline">
             We Produce
           </span>
@@ -131,21 +132,21 @@ function Home() {
             Healthy and<br></br> Delicious food Products
           </span>
         </div>
-        <div className="w-1/2 h-[30rem] bg-red-500 rounded-2xl shadow-xl">
+        <div className="w-full  lg:mx-0 lg:w-1/2 h-[30rem] rounded-2xl shadow-xl">
           <Slide />
         </div>
       </div>
 
       <section className="w-full bg-primary mt-8">
-        <div className="w-3/4 mx-auto py-4">
-          <div className="flex gap-4 justify-between">
+        <div className="w-full  lg:w-3/4 lg:mx-auto py-4">
+          <div className="lg:flex gap-4 justify-between">
             <div className="w-full p-4">
-              <h2 className="text-3xl my-4 font-medium text-primary-100">
+              <h2 className="text-2xl g:text-3xl my-4 font-medium text-primary-100">
                 Chizig Farms aspires to become the premier vertically integrated
                 agricultural enterprise, adding substantial value to the
                 agricultural sector in Ghana.
               </h2>
-              <p className="text-white text-lg text-justify mt-4">
+              <p className="text-white text-base lg:text-lg text-justify mt-4">
                 Chizig Farms is dedicated to the vision of becoming Ghana's
                 leading vertically integrated agricultural enterprise. Through
                 our commitment to sustainable farming practices and innovation,
@@ -159,7 +160,7 @@ function Home() {
               </p>
             </div>
 
-            <div className="w-full pt-12">
+            <div className="w-full pt-12 px-4 lg:px-0">
               <img src={farms} className="w-full" />
             </div>
           </div>
@@ -167,12 +168,12 @@ function Home() {
       </section>
 
       <section className="bg-primary-100 w-full py-12">
-        <div className="w-3/4 mx-auto text-center ">
-          <h2 className="w-1/2 mx-auto text-2xl font-semibold text-primary">
+        <div className="w-full lg:w-3/4 mx-auto text-center ">
+          <h2 className="w-3/4 lg:w-1/2 mx-auto text-2xl font-semibold text-primary">
             Our mission is to uplift one million Ghanaians living in remote
             areas from poverty while fostering agriculture sustainability.
           </h2>
-          <p className="w-3/4 mx-auto text-center mt-4 text-lg">
+          <p className="w-full   lg:w-3/4 lg:mx-auto text-center mt-4 text-lg">
             At Chizig Farms, our mission is a deeply rooted commitment to
             driving positive change in remote areas of Ghana. We are dedicated
             to empowering one million individuals and families, helping them
@@ -184,15 +185,14 @@ function Home() {
             and impactful difference in the lives of our fellow Ghanaians.
           </p>
         </div>
-        <div className="w-1/2 mx-auto mt-8">
+        <div className="w-full lg:w-1/2 mx-auto mt-8">
           <SlideVideo />
         </div>
       </section>
 
       <section className="mt-8 ">
-        <div className="w-3/4 mx-auto">
+        <div className="w-full px-4 lg:px-0 lg:w-3/4 lg:mx-auto">
           <div>
-            {" "}
             <h3 className="title mb-8">Market Opportunities</h3>
             <p className="text-lg text-primary font-normal text-justify">
               Chizig Farms, after the production and aggregation phases, engages
@@ -210,8 +210,8 @@ function Home() {
             </p>
           </div>
 
-          <div className="w-3/4 mx-auto grid grid-cols-2 gap-4 mt-8">
-            <div className="w-full h-[25rem] bg-primary-100 rounded-2xl">
+          <div className="w-full lg:w-3/4 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 mt-8">
+            <div className="w-full h-auto bg-primary-100 rounded-2xl">
               {" "}
               <div className="mt-4  flex justify-center items-center ">
                 <div className="text-4xl border-2 border-primary p-4 rounded-full">
@@ -233,7 +233,7 @@ function Home() {
                 </p>
               </div>
             </div>
-            <div className="w-full h-[25rem] bg-primary-100 rounded-2xl">
+            <div className="w-full h-auto bg-primary-100 rounded-2xl">
               {" "}
               <div className="mt-4  flex justify-center items-center ">
                 <div className="text-4xl border-2 border-primary p-4 rounded-full">
@@ -262,8 +262,8 @@ function Home() {
       </section>
 
       <section className="w-full bg-primary-100 mt-8">
-        <div className="w-3/4 mx-auto py-4">
-          <div className="flex gap-4 justify-between">
+        <div className="lg:w-3/4 mx-auto py-4">
+          <div className="lg:flex gap-4 lg:justify-between">
             <div className="w-full p-4">
               <h2 className="text-3xl my-4 font-medium text-primary">
                 Roots of Chizig Farms: A History of Sustainable Agriculture and
@@ -295,9 +295,9 @@ function Home() {
       </section>
 
       <section className="w-full my-8">
-        <div className="w-3/4 mx-auto ">
+        <div className="w-full px-4 lg:px-0 lg:w-3/4 mx-auto ">
           <h2 className="title">Our Team</h2>
-          <div className="grid grid-cols-3 gap-4 mt-8">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-8">
             <div className="h-[30rem] bg-gray-100">
               <div className="bg-gray-200 h-[20rem] w-full"></div>
               <div className="p-4">
@@ -334,6 +334,35 @@ function Home() {
           </div>
         </div>
       </section>
+
+      <footer class="bg-primary py-8 text-white">
+        <div className="flex justify-center ">
+          <img src={logo} alt="logo" className="w-[15rem] bg-white" />
+        </div>
+        <div class="container mx-auto text-center">
+          <h3 class="text-2xl font-semibold mb-4">Contact Chizig Farms</h3>
+          <p class="text-lg mb-4">
+            We're here to help and answer any questions you might have. We look
+            forward to hearing from you.
+          </p>
+
+          <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
+            <a href="tel:+1234567890" class="hover:underline">
+              Phone: +1 (234) 567-890
+            </a>
+            <a href="mailto:info@chizigfarms.com" class="hover:underline">
+              Email: info@chizigfarms.com
+            </a>
+            <a href="/contact" class="hover:underline">
+              Contact Form
+            </a>
+          </div>
+
+          <div class="mt-4">
+            <p>&copy; 2023 Chizig Farms. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

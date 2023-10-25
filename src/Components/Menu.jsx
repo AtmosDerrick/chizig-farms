@@ -33,7 +33,7 @@ function Menu({ menu, setMenu }) {
                   onClick={() => {
                     setMenu(false);
                   }}>
-                  Event
+                  Our Team
                 </li>
               </Link>
               <Link to="/ministry">
@@ -42,7 +42,7 @@ function Menu({ menu, setMenu }) {
                   onClick={() => {
                     setMenu(false);
                   }}>
-                  Ministries
+                  Activities
                 </li>
               </Link>
 
@@ -52,18 +52,9 @@ function Menu({ menu, setMenu }) {
                   onClick={() => {
                     setMenu(false);
                   }}>
-                  Giving
-                </li>
-              </Link>
-              <a href="#footer">
-                <li
-                  className="block lg:hidden py-2"
-                  onClick={() => {
-                    setMenu(false);
-                  }}>
                   Contact
                 </li>
-              </a>
+              </Link>
             </ul>
           </div>
         </div>
