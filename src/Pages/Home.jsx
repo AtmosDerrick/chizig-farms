@@ -24,7 +24,7 @@ function Home() {
     <div className="w-full mx-auto">
       <div className="h-[60vh] lg:h-[80vh] w-full landing ">
         <div className="h-[60vh] lg:h-[80vh] w-full opacity-0 bg-white  absolute"></div>
-        <div className=" h-[50vh] absolute z-30 w-full">
+        <div className=" h-[50vh] absolute  w-full">
           <div className="text-5xl lg:text-7xl font-serif font-bold text-white flex justify-center items-center h-[50vh]">
             <div className="lw-3/4 g:w-1/2 text-center">
               <div className="mb-4 drop-shadow-lg">Chizig Farms</div>
