@@ -2,7 +2,7 @@ import "./App.css";
 import Home from "./Pages/Home";
 import NavBar from "./Components/NavBar";
 import "font-awesome/css/font-awesome.min.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (

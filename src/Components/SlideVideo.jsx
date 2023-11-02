@@ -44,21 +44,21 @@ function SlideVideo() {
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item padding-40px"
           className="relative">
-          <div className=" ">
+          <div className="bg-gray-400">
             <video controls className="w-full" muted>
               <source src={growing} type="video/mp4" />
               <source src={growing} type="video/ogg" />
             </video>
           </div>
 
-          <div className=" ">
+          <div className="bg-gray-400 ">
             <video controls className="w-full" muted>
               <source src={harvest} type="video/mp4" />
               <source src={harvest} type="video/ogg" />
             </video>
           </div>
 
-          <div className=" ">
+          <div className="bg-gray-400 ">
             <video controls className="w-full" muted>
               <source src={packing} type="video/mp4" />
               <source src={packing} type="video/ogg" />

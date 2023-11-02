@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 function Menu({ menu, setMenu }) {
   return (
-    <div className="relative  bg-gray-900">
+    <div className="relative  bg-gray-900 z-90">
       {" "}
       <div className="text-gray-900  font-semibold   ">
         <div className="w-full mx-auto  relative  ">
-          <div className="absolute text-left mr-0 h-[70vh] text-base w-full   bg-white md:w-3/4   lg:w-2/4 px-2 py-2 font-semibold  shadow-lg font-[Arial] bg-opacity-95  z-20 leading-10 ">
+          <div className="absolute text-left mr-0 h-[70vh] text-base w-full   bg-white md:w-3/4   lg:w-2/4 px-2 py-2 font-semibold  shadow-lg font-[Arial]   z-50 leading-10 ">
             <ul className=" font-serif tracking-wider">
               <Link to="/">
                 <li
