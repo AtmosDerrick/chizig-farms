@@ -34,10 +34,10 @@
 }
 
 /* Styles for screens between 640px and 1023px (tablets) */
-@media (min-width: 640px) and (max-width: 1023px) {
+@media (max-width: 1023px) {
   /* Your CSS styles for tablets go here */
   .landing {
-    background-image: url("./Assets/Images/landing1.jpg");
+    background-image: url("./Assets/Images//workerrr.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

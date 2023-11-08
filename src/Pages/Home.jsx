@@ -18,12 +18,17 @@ import farms from "../Assets/Images/farms.jpeg";
 import SlideVideo from "../Components/SlideVideo";
 import growing from "../Assets/Images/video1.mp4";
 import logo from "../Assets/Images/chi1.png";
+import VideoLanding from "../Components/VideoLanding";
 
 function Home() {
   return (
     <div className="w-full mx-auto">
       <div className="h-[60vh] lg:h-[80vh] w-full landing ">
-        <div className="h-[60vh] lg:h-[80vh] w-full opacity-0 bg-white  absolute"></div>
+        <div className="h-[60vh] lg:h-[80vh] w-full  bg-white  absolute hidden lg:block">
+          <VideoLanding />
+        </div>
+
+        <div className="h-[60vh] lg:h-[80vh] w-full opacity-70 bg-black  absolute"></div>
         <div className=" h-[50vh] absolute  w-full">
           <div className="text-5xl lg:text-7xl font-serif font-bold text-white flex justify-center items-center h-[50vh]">
             <div className="lw-3/4 g:w-1/2 text-center">
@@ -337,7 +342,7 @@ function Home() {
 
       <footer class="bg-primary py-8 text-white">
         <div className="flex justify-center ">
-          <img src={logo} alt="logo" className="w-[15rem] bg-white" />
+          <img src={logo} alt="logo" className="w-[10rem] bg-white" />
         </div>
         <div class="container mx-auto text-center">
           <h3 class="text-2xl font-semibold mb-4">Contact Chizig Farms</h3>
