@@ -31,7 +31,7 @@ function Home() {
         <div className="h-[60vh] lg:h-[80vh] w-full opacity-70 bg-black  absolute"></div>
         <div className=" h-[50vh] absolute  w-full">
           <div className="text-5xl lg:text-7xl font-serif font-bold text-white flex justify-center items-center h-[50vh]">
-            <div className="lw-3/4 g:w-1/2 text-center">
+            <div className="lw-3/4 g:w-1/2 text-center" data-aos="fade-right">
               <div className="mb-4 drop-shadow-lg">Chizig Farms</div>
               <p className="text-xl px-4 lg:px-24 font-medium">
                 Farming with Passion, Feeding the World
@@ -41,8 +41,10 @@ function Home() {
         </div>
       </div>
       <div className="h-4 bg-primary w-full"></div>
-      <div className="mx-4 lg:w-2/4  h-auto lg:h-[20vh] lg:mx-auto mt-8 grid grid-cols-1 lg:grid-cols-3 gap-5 mb-4">
-        <div className="bg-secondary text-white font-medium rounded-lg flex justify-center items-center h-[10rem] lg:h-auto">
+      <div className="mx-4 lg:w-2/4  h-auto lg:h-[20vh] lg:mx-auto mt-8 grid grid-cols-1 lg:grid-cols-3 gap-5 mb-12">
+        <div
+          className="bg-secondary text-white font-medium rounded-lg flex justify-center items-center h-[10rem] lg:h-auto"
+          data-aos="fade-right">
           <div className="text-white">
             <FontAwesomeIcon
               icon={faSeedling}
@@ -51,7 +53,9 @@ function Home() {
             <div className="text-2xl font-semibold text-center ">We Grow</div>
           </div>
         </div>
-        <div className="bg-primary text-white font-medium rounded-lg flex justify-center items-center h-[10rem] lg:h-auto">
+        <div
+          className="bg-primary text-white font-medium rounded-lg flex justify-center items-center h-[10rem] lg:h-auto"
+          data-aos="fade-down">
           <div className="text-white ">
             <FontAwesomeIcon
               icon={faWheatAwn}
@@ -62,7 +66,9 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="bg-secondary text-white font-medium rounded-lg flex justify-center items-center h-[10rem] lg:h-auto">
+        <div
+          className="bg-secondary text-white font-medium rounded-lg flex justify-center items-center h-[10rem] lg:h-auto"
+          data-aos="fade-left">
           <div className="text-white ">
             <FontAwesomeIcon
               icon={faShip}
@@ -75,7 +81,9 @@ function Home() {
       <div className="bg-primary-100 w-full mt-4 ">
         <div className="mx-4 lg:w-3/4 lg:mx-auto py-4">
           <h2 className="title mb-4">About Us</h2>
-          <div className="w-full lg:flex lg:justify-between gap-4">
+          <div
+            className="w-full lg:flex lg:justify-between gap-4"
+            data-aos="fade-right">
             <div className="full">
               <img
                 src={about}
@@ -83,7 +91,9 @@ function Home() {
                 className="w-full lg:w-3/4 rounded-2xl shadow-lg"
               />
             </div>
-            <div className="w-full text-base lg:text-lg text-justify pt-4 lg:pt-0">
+            <div
+              className="w-full text-base lg:text-lg text-justify pt-4 lg:pt-0"
+              data-aos="fade-left">
               <p>
                 At Chizig Farms, our story is rooted in a deep love for the land
                 and a passion for producing the world's finest agricultural
@@ -128,7 +138,9 @@ function Home() {
       }
 
       <div className="my-8 mx-4 lg:w-3/4 lg:mx-auto lg:flex lg:justify-between gap-4 ">
-        <div className="w-full lg:w-3/4 mb-4 lg:mb-0 text-5xl lg:text-6xl font-bold text-primary lg:leading-[5rem] pt-8">
+        <div
+          className="w-full lg:w-3/4 mb-4 lg:mb-0 text-5xl lg:text-6xl font-bold text-primary lg:leading-[5rem] pt-8"
+          data-aos="fade-right">
           <span className="text-2xl font-normal italic pb-4 underline">
             We Produce
           </span>
@@ -137,7 +149,9 @@ function Home() {
             Healthy and<br></br> Delicious food Products
           </span>
         </div>
-        <div className="w-full  lg:mx-0 lg:w-1/2 h-[25rem] lg:h-[30rem] rounded-2xl shadow-xl">
+        <div
+          className="w-full  lg:mx-0 lg:w-1/2 h-[25rem] lg:h-[30rem] rounded-2xl shadow-xl"
+          data-aos="fade-left">
           <Slide />
         </div>
       </div>
@@ -190,7 +204,7 @@ function Home() {
             and impactful difference in the lives of our fellow Ghanaians.
           </p>
         </div>
-        <div className="w-full lg:w-1/2 mx-auto mt-8">
+        <div className="w-full lg:w-1/2 mx-auto mt-8" data-aos="flip-left">
           <SlideVideo />
         </div>
       </section>
@@ -216,7 +230,9 @@ function Home() {
           </div>
 
           <div className="w-full lg:w-3/4 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 mt-8">
-            <div className="w-full h-auto bg-primary-100 rounded-2xl">
+            <div
+              className="w-full h-auto bg-primary-100 rounded-2xl"
+              data-aos="fade-up">
               {" "}
               <div className="mt-4  flex justify-center items-center ">
                 <div className="text-4xl border-2 border-primary p-4 rounded-full">
@@ -238,7 +254,9 @@ function Home() {
                 </p>
               </div>
             </div>
-            <div className="w-full h-auto bg-primary-100 rounded-2xl">
+            <div
+              className="w-full h-auto bg-primary-100 rounded-2xl"
+              data-aos="fade-down">
               {" "}
               <div className="mt-4  flex justify-center items-center ">
                 <div className="text-4xl border-2 border-primary p-4 rounded-full">
@@ -267,7 +285,7 @@ function Home() {
       </section>
 
       <section className="w-full bg-primary-100 mt-8">
-        <div className="lg:w-3/4 mx-auto py-4">
+        <div className="lg:w-3/4 mx-auto py-4" data-aos="fade-right">
           <div className="lg:flex gap-4 lg:justify-between">
             <div className="w-full p-4">
               <h2 className="text-3xl my-4 font-medium text-primary">
