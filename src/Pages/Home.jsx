@@ -55,7 +55,7 @@ function Home() {
         </div>
         <div
           className="bg-primary text-white font-medium rounded-lg flex justify-center items-center h-[10rem] lg:h-auto"
-          data-aos="fade-down">
+          data-aos="fade-right">
           <div className="text-white ">
             <FontAwesomeIcon
               icon={faWheatAwn}
@@ -68,7 +68,7 @@ function Home() {
         </div>
         <div
           className="bg-secondary text-white font-medium rounded-lg flex justify-center items-center h-[10rem] lg:h-auto"
-          data-aos="fade-left">
+          data-aos="fade-right">
           <div className="text-white ">
             <FontAwesomeIcon
               icon={faShip}
